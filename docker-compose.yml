@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ros2:
+    image: hbrobotics/ros2:ardent-ament
+    build: .
+    volumes:
+      - ./shared:/shared
+    command: bash
