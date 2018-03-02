@@ -1,7 +1,7 @@
 version: '3'
 services:
   ros2:
-    image: hbrobotics/ros2:ardent-ament
+    image: hbrobotics/ros2_ardent_ament
     build: .
     volumes:
       - ./shared:/shared
